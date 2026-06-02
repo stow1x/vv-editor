@@ -30,7 +30,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build --base=/${{ github.event.repository.name }}/
+        run: pnpm exec vite build --base=/${{ github.event.repository.name }}/
 
       - uses: actions/configure-pages@v5
 
