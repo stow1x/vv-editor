@@ -9,7 +9,17 @@
 
 A Vue 3 + Vite SPA port of [openvideodev/vue-video-editor](https://github.com/openvideodev/vue-video-editor) (originally a Nuxt 4 app), powered by [OpenVideo](https://openvideo.dev/).
 
+**Status: Technical Preview**
+
 </div>
+
+> ⚠️ **Technical preview.** This repository is published for evaluation and integration work. Expect rough edges:
+> - APIs in `src/services/` and `src/composables/` may change without notice.
+> - No backend is included — backend-dependent panels (captions, stock media, music/SFX catalog, AI audio) will throw until the corresponding service stubs are implemented.
+> - No automated tests; only `pnpm typecheck` is wired up.
+> - Browser support is limited to Chromium-based browsers with WebCodecs.
+>
+> Please file issues at [stow1x/vv-editor/issues](https://github.com/stow1x/vv-editor/issues) — bug reports, missing-feature reports, and integration questions are all welcome.
 
 ## What this is
 
